@@ -1,4 +1,4 @@
 CityFormatter
 =============
 
-ruby script to format list of french city and convert it from XML to JSON
+ruby script to format list of french cities and converts it from XML to JSON
