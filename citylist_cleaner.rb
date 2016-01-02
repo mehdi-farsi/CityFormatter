@@ -4,10 +4,10 @@ require 'json'
 
 def remove_unused_infos(input_file, output_file)
   doc = Nokogiri::XML(File.new(input_file))
-  cities = <<-EOF
+  cities = <<-XML
   <?xml version="1.0" encoding="utf-8"?>
   <cities>
-  EOF
+  XML
   
   useful_fields = ['ville_id', 'ville_departement', 'ville_nom',
                    'ville_latitude_deg', 'ville_longitude_deg',
